@@ -1,6 +1,7 @@
 USE codeup_test_db;
 
     DROP TABLE IF EXISTS albums;
+
     CREATE TABLE albums (
         id INT UNSIGNED NOT NULL AUTO_INCREMENT,
         artist VARCHAR(100),
@@ -10,5 +11,6 @@ USE codeup_test_db;
         genre VARCHAR(100),
         PRIMARY KEY (id)
         );
-    DESCRIBE albums;
 
+    DESCRIBE albums;
+    source /Users/mikekaram/IdeaProjects/database-exercises/albums_seeder.sql;
