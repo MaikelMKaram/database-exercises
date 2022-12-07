@@ -1,5 +1,6 @@
 USE codeup_test_db;
 
+    TRUNCATE albums;
     INSERT into albums (artist, name, release_date, sales, genre)
     values
         ("Michael Jackson", "Thriller", 1982, 50.2, "Pop"),
@@ -13,7 +14,6 @@ USE codeup_test_db;
         ("Bee Gees / Various Artists", "Saturday Night Fever", 1977, 22.1, "Disco"),
         ("Led Zeppelin", "Led Zeppelin IV", 1971, 30.4, "Hard Rock"),
         ("The Beatles", "Sgt. Pepper's Lonely Hearts Club Band", 1967, 18.3, "Rock");
-
 
     SELECT * FROM albums;
 
